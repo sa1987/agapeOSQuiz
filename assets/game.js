@@ -20,8 +20,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 100;
+
 fetch('questions.json')
     .then((res) => {
         return res.json();
@@ -35,13 +34,17 @@ fetch('questions.json')
     });
 
 //CONSTANTS
-
+const CORRECT_BONUS = 10;
+// availableQuesions = [...questions];
+// const MAX_QUESTIONS = 4
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
     //... spread out the questions into an array  
     availableQuesions = [...questions];
+    // max questions determined based on length of the array 
+    MAX_QUESTIONS = availableQuesions.length
     getNewQuestion();
 };
 
