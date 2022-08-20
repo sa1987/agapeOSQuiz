@@ -20,7 +20,8 @@ let availableQuesions = [];
 
 let questions = [];
 
-
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 100;
 fetch('questions.json')
     .then((res) => {
         return res.json();
@@ -34,8 +35,7 @@ fetch('questions.json')
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+
 
 startGame = () => {
     questionCounter = 0;
@@ -45,11 +45,14 @@ startGame = () => {
     getNewQuestion();
 };
 
+
+
 getNewQuestion = () => {
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    // if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     rightAns.style.opacity = 0;
     wrongAns.style.opacity = 0;
@@ -150,7 +153,7 @@ incrementScore = (num) => {
 //     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
 //         localStorage.setItem("mostRecentScore", score);
 //       //go to the end page
-//       return window.location.assign("/end.html");
+//       return window.location.assign("end.html");
 //     }
 //     questionCounter++;
 //         //update the HUD - q/n counter dynamically

@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter Quiz - End Page</title>
-    <link rel="stylesheet" href="app.css" />    
+    <link rel="stylesheet" href="end.css" />
+    <link rel="stylesheet" href="../app.css" />
 </head>
+<header>
+   
+</header>
 <body>
-    <div class="container">
+   <div class="endBanner">
+    <div id="endB" class="flex-horizontal">
+      <a class="topbtn" href="game.html">Play Again</a>
+      <a class="topbtn" href="../index.html">Home</a>
+    </div>
+  </div> 
+     <div class="container">
       <div id="end" class="flex-center flex-column">
         <h3 id="endBanner"> Congratulations on completing the quiz!!</h3>
-        <h1 id="finalScore"></h1>
+        <h3 id="finalScore"></h3>
         <form>
           <input
             type="text"
@@ -29,10 +39,9 @@
             Save
           </button>
         </form>
-        <a class="btn" href="/game.html">Play Again</a>
-        <a class="btn" href="/">Home</a>
       </div>
     </div>
+    
     <script src="end.js"></script>
   </body>
 </html>

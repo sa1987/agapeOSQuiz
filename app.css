@@ -78,6 +78,10 @@ h3 {
     flex-direction: column;
   }
   
+  .flex-horizontal {
+    display: flex;
+    flex-direction:row;
+  }
   .flex-center {
     justify-content: center;
     align-items: center;

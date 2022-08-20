@@ -79,8 +79,20 @@
   }
 
   #rightAns {
+    display: flex;
+    font-size: 2rem;
+    font-style: italic;
+    flex-wrap: wrap;
+    text-align: center;
     opacity: 0;
+    color:#28a745
   }
   #wrongAns {
+    display: flex;
+    font-size: 2rem;
+    font-style: italic;
+    flex-wrap: wrap;
+    text-align: center;
     opacity: 0;
+    color: #dc3545;
   }
