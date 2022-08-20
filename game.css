@@ -63,3 +63,24 @@
     background-color: #56a5eb;
     width: 0%;
   }
+
+
+
+  .hide {
+    display: none;
+  }
+  
+  .btn.correct {
+    background-color: #6b8e23;
+  }
+  
+  .btn.wrong {
+    background-color: #aaaaaa;
+  }
+
+  #rightAns {
+    opacity: 0;
+  }
+  #wrongAns {
+    opacity: 0;
+  }

@@ -4,6 +4,11 @@ const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 //const questionCounterText = document.getElementById("questionCounter");
+const wrongAns = document.getElementById("wrongAns")
+const rightAns = document.getElementById("rightAns")
+
+wrongAns.style.opacity = 0;
+rightAns.style.opacity = 0;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -46,6 +51,8 @@ getNewQuestion = () => {
         //go to the end page
         return window.location.assign('/end.html');
     }
+    rightAns.style.opacity = 0;
+    wrongAns.style.opacity = 0;
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //Update the progress bar
@@ -79,7 +86,12 @@ choices.forEach((choice) => {
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
+            wrongAns.style.opacity = 0;
+            rightAns.style.opacity = 1;
             incrementScore(CORRECT_BONUS);
+        } else {
+            rightAns.style.opacity = 0;
+            wrongAns.style.opacity = 1;  
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
