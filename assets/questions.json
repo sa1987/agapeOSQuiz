@@ -1,27 +1,35 @@
 [
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
-    },
-    {
-      "question": "What is the correct syntax for  'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "question": "Which of the following is/are not FAIR principles?",
+      "choice1": "Findable & Accessible",
+      "choice2": "Accessible & Reproducible",
+      "choice3": "Identifiable & Reproducible",
+      "choice4": "Reproducible & Findable",
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
-      "answer": 4
+      "question": "Which of the following statements is true?'?",
+      "choice1": "Metadata should be determined at the beginning of the project to provide guidelines for the process.",
+      "choice2": "Understanding the purpose of a file is a good way to start when you try to decide the format for file preserving.",
+      "choice3": "PID (persistent identifier) includes DOI, ORCID, ISBN, URL, etc.",
+      "choice4": "Sensitive data can always be FAIR in the same way as non-sensitive data.",
+      "answer": 2
+    },
+    {
+      "question": "If you want to find out about a specific author, the most effective way is to search by:",
+      "choice1": "ORCID",
+      "choice2": "URL",
+      "choice3": "DQI",
+      "choice4": "ARKs",
+      "answer": 1
+    },
+    {
+      "question": "Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR?",
+      "choice1": "Write a new data management plan, specifying the planned handling of all data types.",
+      "choice2": "Find the data management plan from a previous project and use it.",
+      "choice3": "Hire someone externally to write the data management plan.",
+      "choice4": "Delegate the job to one of her collaborators.",
+      "answer": 1
     },
     {
       "question": " this is a place holder questions",
