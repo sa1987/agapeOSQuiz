@@ -5,6 +5,10 @@
     font-size: 1.5rem;
     border: 0.1rem solid rgb(86, 165, 235, 0.25);
     background-color: white;
+    max-width: 80rem;
+    max-height: fit-content;
+    margin: .5rem auto;
+    padding: .5rem;    
   }
 
   .choice-prefix {
@@ -14,8 +18,10 @@
   }
   
   .choice-text {
-    padding: 1.5rem;
+    padding: 1rem;
     width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
   }
 
   .choice-container:hover {
@@ -40,32 +46,42 @@
 #hud {
     display: flex;
     justify-content: space-between;
+    font-family:'Times New Roman', Times, serif
   }
   
   .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size:medium
   }
   
   .hud-main-text {
     text-align: center;
     color:#cc6600;
+    font-size: 2rem;
+  }
+  /* Score format*/
+  h1 {
+    margin-bottom: 3rem;
+  }
+  /* The question format */
+  h3 {
+    text-align: left;
+    color:black;
+    font-size:medium
   }
 
 #progressBar {
-    width: 20rem;
-    height: 4rem;
+    width: 10rem;
+    height: 2rem;
     border: 0.3rem solid #cc6600;;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
   }
   
   #progressBarFull {
-    height: 3.4rem;
+    height: 1.5rem;
     background-color: #cc6600;;
     width: 0%;
   }
-
-
 
   .hide {
     display: none;
