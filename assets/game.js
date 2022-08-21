@@ -7,6 +7,7 @@ const progressBarFull = document.getElementById("progressBarFull");
 const wrongAns = document.getElementById("wrongAns")
 const rightAns = document.getElementById("rightAns")
 
+
 wrongAns.style.opacity = 0;
 rightAns.style.opacity = 0;
 
@@ -15,8 +16,6 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-//const CORRECT_BONUS = 10;
-//const MAX_QUESTIONS = 3;
 
 let questions = [];
 
@@ -35,7 +34,6 @@ fetch('questions.json')
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-// availableQuesions = [...questions];
 // const MAX_QUESTIONS = 4
 
 startGame = () => {

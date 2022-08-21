@@ -1,5 +1,6 @@
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-
+//clear list
+var clearScoreButton = document.getElementById("clear-btn");
 
 // highScoresList.innerHTML = highScores
 //   .map(score => {
@@ -40,3 +41,8 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 displayHighscores();
 //highScoresList.innerHTML = displayMovies(highScores);
  
+// Clear localStorage items 
+clearScoreButton.addEventListener("click", function () {
+  localStorage.clear();
+  document.getElementById("highScoresList").innerHTML = "";
+});
