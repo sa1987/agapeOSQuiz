@@ -1,42 +1,130 @@
 [
+  {
+    "question": "The open science movement is NOT attempting to make science…",
+    "choice1": "Commercially appealing",
+    "choice2": "Transparent and reproducible",
+    "choice3": "Freely available",
+    "choice4": "Collaborative and inclusive",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following does NOT belong under the umbrella of open science?",
+    "choice1": "Science blogs",
+    "choice2": "Open-source software and hardware",
+    "choice3": "Educational resources behind paywalls",
+    "choice4": "Citizen science",
+    "answer": 3
+  },
+{
+    "question": "Which of these benefits does open access bring?",
+    "choice1": "Application of your findings by practitioners and policy makers",
+    "choice2": "Researchers in developing countries have access to your work",
+    "choice3": "Your research gets more exposure and increases chance of getting future funding",
+    "choice4": "Easy increase of your scientist impact factor",
+    "answer": 4
+  },
+  {
+    "question": "Which of these claims about open data is NOT true?",
+    "choice1": "Data can be accessed and shared.",
+    "choice2": "Data that can be accessed and reused by anyone for any purpose without technical or legal restrictions.",
+  "choice3": "Data can be reused free of charge.",
+    "choice4": "Data can be sold to other interested parties.",
+    "answer": 4
+  },
+  {
+    "question": "What is NOT a common condition found in data licences?",
+    "choice1": "Attribution",
+    "choice2": "Royalties",
+    "choice3": "Non-commercial",
+    "choice4": "Copyleft or share alike",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is NOT one of the main benefits of documenting your code?",
+    "choice1": "Clarity and reproducibility",
+    "choice2": "Others can utilise and extend your code",
+    "choice3": "To get credited if others use your code",
+    "choice4": "Influence on the performance of your code",
+    "answer": 4
+  },
+{
+    "question": "Which of the claims about an embargo period on data access is NOT correct?",
+    "choice1": "An embargo period is often stated in your consortium agreement, funders’ contract, patent, etc.",
+    "choice2": "An embargo period is usually created as a result of unfavourable political or economic circumstances between nations.",
+    "choice3": "An embargo period is temporary and at the end of it data will become available by either open or mediated access.",
+    "choice4": "An embargo period allows for IP registration (patent, design, copyright).",
+    "answer": 2
+  },
+  {
+    "question": "What should be included in a data management plan (DMP)?",
+    "choice1": "Data publishing impact",
+    "choice2": "Dissemination methods",
+  "choice3": "Legal and ethical requirements",
+    "choice4": "Data storage and preservation strategy",
+    "answer": 1
+  },
     {
-      "question": "Which of the following is/are not FAIR principles?",
-      "choice1": "Findable & Accessible",
-      "choice2": "Accessible & Reproducible",
-      "choice3": "Identifiable & Reproducible",
-      "choice4": "Reproducible & Findable",
-      "answer": 3
-    },
+    "question": "Which of the following is NOT a FAIR principle?",
+    "choice1": "Findable",
+    "choice2": "Accessible",
+    "choice3": "Identifiable",
+    "choice4": "Reusable",
+    "answer": 3
+  },
+{
+    "question": "Which type of metadata is NOT the relevant to the FAIR principles:",
+    "choice1": "Descriptive metadata",
+    "choice2": "Indicative metadata",
+    "choice3": "Administrative metadata",
+    "choice4": "Structural metadata",
+    "answer": 2
+  },
+ {
+    "question": "What is NOT the function of data repositories?",
+    "choice1": "To collect data",
+    "choice2": "To manage data",
+    "choice3": "To archive data",
+    "choice4": "To validate data",
+    "answer": 4
+  },
+  {
+    "question": "Which services provide data centres additional to those of data repositories?",
+    "choice1": "Legal advice",
+    "choice2": "Unlimited data storage",
+    "choice3": "Platforms, tools, processes and specifications",
+    "choice4": "Career consultancy",
+    "answer": 3
+  },
+   {
+    "question": "Which of the following factors are addressed by open science policies?",
+    "choice1": "Restriction and anonymisation of personal data",
+    "choice2": "Property rights, copyright and licencing",
+    "choice3": "Provision of funding opportunities",
+    "choice4": "Open-access publications and publishing standards",
+    "answer": 3
+  },
     {
-      "question": "Which of the following statements is true?'?",
-      "choice1": "Metadata should be determined at the beginning of the project to provide guidelines for the process.",
-      "choice2": "Understanding the purpose of a file is a good way to start when you try to decide the format for file preserving.",
-      "choice3": "PID (persistent identifier) includes DOI, ORCID, ISBN, URL, etc.",
-      "choice4": "Sensitive data can always be FAIR in the same way as non-sensitive data.",
-      "answer": 2
-    },
-    {
-      "question": "If you want to find out about a specific author, the most effective way is to search by:",
-      "choice1": "ORCID",
-      "choice2": "URL",
-      "choice3": "DQI",
-      "choice4": "ARKs",
-      "answer": 1
-    },
-    {
-      "question": "Jane is conducting a research project that employs quantitative data without any personal or confidential information. How can she draw up a data management plan that is FAIR?",
-      "choice1": "Write a new data management plan, specifying the planned handling of all data types.",
-      "choice2": "Find the data management plan from a previous project and use it.",
-      "choice3": "Hire someone externally to write the data management plan.",
-      "choice4": "Delegate the job to one of her collaborators.",
-      "answer": 1
-    },
-    {
-      "question": " this is a place holder questions",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
-      "answer": 4
-    }
-  ]
+    "question": "Which of the following belongs to general principles of scientific integrity?",
+    "choice1": "Impertinence",
+    "choice2": "Accountability",
+    "choice3": "Professional courtesy and fairness",
+    "choice4": "Honesty",
+    "answer": 1
+  },
+   {
+    "question": "What is your study plan referred to after a journal reviews it?",
+    "choice1": "Pre-registration ",
+    "choice2": "Registered report ",
+    "choice3": "Gold access journal paper",
+    "choice4": "Green access journal paper ",
+    "answer": 2
+  },
+{
+    "question": "What is a pre-print?",
+    "choice1": "A copy of the research hypotheses you have for your research ",
+    "choice2": "An infographic which sums up your research ",
+    "choice3": "A full draft of a paper sent for peer-review",
+    "choice4": "Research protocol",
+    "answer": 3
+  }
+]
