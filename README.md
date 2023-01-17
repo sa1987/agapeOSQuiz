@@ -10,5 +10,5 @@ Features of the quiz:
 #### Dynamic progress bar;
 #### Restart and clear button;
 
-Please refere the how to guide provided in the main Agape Quiz template [ repo](https://github.com/sa1987/AgapeQuiz).
+Please refer the how to guide provided in the main Agape Quiz template [ repo](https://github.com/sa1987/AgapeQuiz).
 
